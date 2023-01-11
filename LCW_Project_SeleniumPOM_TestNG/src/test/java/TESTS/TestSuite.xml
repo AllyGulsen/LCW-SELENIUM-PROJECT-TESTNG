@@ -1,0 +1,19 @@
+
+
+<suite name="Smoke Suite">
+
+    <listeners>
+        <listener class-name="UTILS.Listener"/>
+    </listeners>
+
+    <test name="Navigate and Add To Cart Functionality Tests">
+        <classes>
+
+            <class name="TESTS.CompleteTest"></class>
+
+        </classes>
+    </test>
+
+</suite>
+
+
